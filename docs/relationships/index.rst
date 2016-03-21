@@ -27,10 +27,10 @@ Settings
 The following settings my
 be added to ``settings.py`` to influence the score assigned to two pieces of content::
 
-    AUTHORITATIVE_FACTOR    = [0.25]
-    CATEGORY_FACTOR         = [0.25]
-    LIKE_TYPE_FACTOR        = [0.25]
-    TAG_FACTOR              = [0.25]
+    AUTHORITATIVE_FACTOR    = 0.25
+    CATEGORY_FACTOR         = 0.25
+    LIKE_TYPE_FACTOR        = 0.25
+    TAG_FACTOR              = 0.25
 
 Added Methods and Properties
 ----------------------------
